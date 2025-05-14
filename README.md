@@ -35,7 +35,7 @@ SentimentSpeech is a powerful web application that analyzes text sentiment and r
 - **Speech Synthesis**: Web Speech API
 - **Deployment Options**: 
   - Local (Flask)
-  - Netlify (Serverless)
+  - Render (Serverless)
   - Surge (Static frontend)
   - Docker container
 
@@ -53,7 +53,7 @@ SentimentSpeech is a powerful web application that analyzes text sentiment and r
 
 ```bash
 # Clone the repository
-git clone https://github.com/ahritik/SentiSpeech.git
+git clone https://github.com/ak55m/SentiSpeech.git
 cd SentiSpeech
 
 # Create and activate a virtual environment
@@ -81,22 +81,6 @@ docker run -p 8080:8080 SentiSpeech
 
 Then visit `http://localhost:8080` in your browser.
 
-### Netlify Deployment
-
-1. Fork/clone this repository
-2. Connect your GitHub repo to Netlify
-3. Netlify will automatically deploy using the `netlify.toml` config
-
-### Surge Deployment (Frontend Only)
-
-```bash
-# Generate static site
-python generate_static.py
-
-# Deploy with Surge
-cd surge_dist
-npx surge
-```
 
 ## 📊 How It Works
 
