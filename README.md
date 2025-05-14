@@ -6,7 +6,7 @@
 
 SentimentSpeech is a powerful web application that analyzes text sentiment and reads content aloud with emotionally appropriate tone. By combining natural language processing with speech synthesis, SentimentSpeech bridges the gap between written text and emotional speech.
 
-**Try it live:** [sentispeech.netlify.app](https://sentispeech.onrender.com/) (demo version)
+**Try it live:** [sentispeech.onrender.com](https://sentispeech.onrender.com/) (demo version)
 - **Please keep in mind it takes about atleast 1 or 2 minutes to wake up the server hosting the website.** 
 
 [![GitHub stars](https://img.shields.io/github/stars/ahritik/SentiSpeech?style=social)](https://github.com/ahritik/SentiSpeech)
